@@ -58,10 +58,13 @@ else
 }
 
 
-function tinyFriend(nameList) {
+function tinyFriend(nameList) 
+{
 var friendNameList = [];
-for (var i = 0; i < nameList.length; i++) {
-    if (nameList[i] != ' ') {
+for (var i = 0; i < nameList.length; i++) 
+{
+    if (nameList[i] != ' ') 
+    {
         friendNameList.push(nameList[i])
     }
 }
